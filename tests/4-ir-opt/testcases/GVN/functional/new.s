@@ -1,0 +1,2 @@
+	.text
+	jr $ra

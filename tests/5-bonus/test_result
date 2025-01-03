@@ -1,0 +1,31 @@
+[1/14] 1-return.cminus: pass, costs 0.009690s
+[2/14] 10-float.cminus: pass, costs 0.010164s
+[3/14] 11-floatcall.cminus: pass, costs 0.007578s
+[4/14] 12-global.cminus: pass, costs 0.010725s
+[5/14] 13-complex.cminus: pass, costs 0.007827s
+[6/14] 2-calculate.cminus: pass, costs 0.007619s
+[7/14] 3-output.cminus: pass, costs 0.007772s
+[8/14] 4-if.cminus: pass, costs 0.006947s
+[9/14] 5-while.cminus: pass, costs 0.008395s
+[10/14] 6-array.cminus: pass, costs 0.007867s
+[11/14] 7-function.cminus: pass, costs 0.009367s
+[12/14] 8-store.cminus: pass, costs 0.008912s
+[13/14] 9-fibonacci.cminus: pass, costs 0.008083s
+[14/14] test.cminus: [1/13] 1-return.cminus: pass, costs 0.010188s
+[2/13] 10-float.cminus: pass, costs 0.007980s
+[3/13] 11-floatcall.cminus: pass, costs 0.007075s
+[4/13] 12-global.cminus: pass, costs 0.007033s
+[5/13] 13-complex.cminus: pass, costs 0.008215s
+[6/13] 2-calculate.cminus: pass, costs 0.017305s
+[7/13] 3-output.cminus: pass, costs 0.016267s
+[8/13] 4-if.cminus: pass, costs 0.009508s
+[9/13] 5-while.cminus: pass, costs 0.007654s
+[10/13] 6-array.cminus: pass, costs 0.006848s
+[11/13] 7-function.cminus: pass, costs 0.007119s
+[12/13] 8-store.cminus: pass, costs 0.008271s
+[13/13] 9-fibonacci.cminus: pass, costs 0.007648s
+0 tests failed
+total time is 0.12110981005243958s
+avg time is 0.009316139234803044s
+13 tests finishes in time limit
+testcase			your_cminus1-return.cminus     		 0.01018810-float.cminus     		 0.00798011-floatcall.cminus 		 0.00707512-global.cminus    		 0.00703313-complex.cminus   		 0.0082152-calculate.cminus  		 0.0173053-output.cminus     		 0.0162674-if.cminus         		 0.0095085-while.cminus      		 0.0076546-array.cminus      		 0.0068487-function.cminus   		 0.0071198-store.cminus      		 0.0082719-fibonacci.cminus  		 0.007648===================================================================

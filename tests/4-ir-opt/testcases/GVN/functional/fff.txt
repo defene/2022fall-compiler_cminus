@@ -1,0 +1,27 @@
+define i32 @main() {
+label0:
+  %op1 = call i32 @input()
+  %op2 = call i32 @input()
+  %op3 = icmp sgt i32 %op1, %op2
+  %op4 = zext i1 %op3 to i32
+  %op5 = icmp sgt i32 %op4, 0
+  br i1 %op5, label %label6, label %label15
+label6:                                                ; preds = %label0
+  %op7 = add i32 33, 33
+  %op8 = add i32 44, 44
+  %op9 = add i32 %op7, %op8
+  br label %label10
+label10:                                                ; preds = %label6, %label15
+  %op11 = phi i32 [ %op9, %label6 ], [ %op18, %label15 ]
+  %op12 = phi i32 [ %op8, %label6 ], [ %op17, %label15 ]
+  %op13 = phi i32 [ %op7, %label6 ], [ %op16, %label15 ]
+  call void @output(i32 %op11)
+  %op14 = add i32 %op13, %op12
+  call void @output(i32 %op14)
+  ret i32 0
+label15:                                                ; preds = %label0
+  %op16 = add i32 55, 55
+  %op17 = add i32 66, 66
+  %op18 = add i32 %op16, %op17
+  br label %label10
+}

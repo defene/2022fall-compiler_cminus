@@ -1,0 +1,43 @@
+int main(void) {
+    int i;
+    int j;
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    int f;
+
+    a = 0;
+    b = 0;
+    c = 0;
+    d = input();
+    e = input();
+    f = 0;
+    if(a>b){  
+       if(c>b){
+          a=d+e;
+          b=d*e;
+          c=a+b;
+       }
+       else{
+          a=d-e;
+          b=e*d;
+          c=a+b;
+       }
+  }
+    else{
+       if(c>b){
+          a=e+d;
+          b=e*10;
+          c=a+b;
+       }
+       else{
+          a=e-d;
+          b=d*10;
+          c=a+b;
+       }
+  }
+output(c);
+output(a+b);
+}
