@@ -1,7 +1,5 @@
 # CMinus Compiler
 
-![CMinus Logo](https://github.com/defene/2022fall-compiler_cminus/blob/main/logo.png)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
